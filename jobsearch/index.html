@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Activity</title>
+<script src="script/script.js"></script>
+<link rel="stylesheet" href="css/css.css">
+
+</head>
+<body>
+<div class="div1">
+<header>
+  <h1>JobSearch</h1>
+  <span>com</span>
+</header>
+<div class="div2">
+<h2>
+Create Your Account</h2>
+<p class="red">*Required information<p>
+</div>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="div4">
+  <div class="row">
+  <h3>Basic information</h3>
+  
+    <div class="col-25">
+      <label for="Email">Email<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Enter email"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="password">Password<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="password" id="password" name="password" placeholder="Enter password"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="rpassword">Retype Password<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="password" id="rpassword" name="rpassword" placeholder="Retype password" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fn">First Name<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fn" name="fn" placeholder="Enter First Name"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="ln">Last Name<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="ln" name="ln" placeholder="Enter Last Name"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="pn">Phone Number<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="pn" name="pn" placeholder="Enter Phone Number" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="address">Address<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="address" name="address" placeholder="Enter address" required>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="Province">Province<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="province" name="province" placeholder="Enter Province"required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="city">City<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <select id="city" name="city">
+	  <option value="Montréal">Montreal</option>
+        <option value="Toronto">Toronto</option>
+
+        <option value="Vancouver">Vancouver</option>
+      </select>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="country">Country<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="country" name="country" placeholder="Enter country"required>
+    </div>
+  </div>
+  <br>
+  </div>
+  
+    <div class="div4">
+  <div class="row">
+  <h3>Education</h3>
+    <div class="col-25">
+      <label for="school">School<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="school" name="school" placeholder="Enter School"required>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="program">Program<span class="span1">*</span></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="program" name="program" placeholder="Enter program" required>
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="level">Level</label>
+    </div>
+    <div class="col-75">
+      <select id="level" name="level">
+        <option value="l1">Intermediate education</option>
+        <option value="l2">High School Education</option>
+        <option value="l3">Post-Secondary Education</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="status"></label>
+    </div>
+	<div class="col-75">
+	<fieldset>
+    <legend> Education Status:</legend>
+			<input type="radio" id="graduated" name="graduated" value="graduated">
+			<label for="graduated">Graduated</label>
+			<input type="radio" id="current" name="current" value="current">
+			<label for="current">Current Enrolled</label><br>
+			<input type="radio" id="not" name="not" value="not">				
+			<label for="not">Did Not Graduate</label>
+  </fieldset>
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="date">Graduation date</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="date" name="date" placeholder="Enter date" required>
+    </div>
+  </div>
+  <br>
+  </div>
+   <div class="div4">
+   <div class="row">
+  <h3>Work Experience</h3>
+    <div class="col-25">
+      <label for="employer">Employer</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="employer" name="employer">
+    </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-25">
+      <label for="title">Job Title</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="title" name="title">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="duty">Job Duty</label>
+    </div>
+    <div class="col-75">
+      <input type="textbox" name="duty" name="duty">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-25">
+      <label for="year">Worked Year:</label>
+    </div>
+    <div class="col-75">
+       <select id="year1" name="year1">
+        <option value="year1">1</option>
+        <option value="year2">2</option>
+        <option value="year3">3</option>
+        <option value="year4">4</option>
+        <option value="year5">5</option>
+        <option value="year6">6</option>
+        <option value="year7">7</option>
+        <option value="year8">8</option>
+        <option value="year9">9</option>
+        <option value="year10">10</option>
+      </select>
+    </div>
+  </div>
+  <br>
+  
+  </div>
+    <div class="div4">
+   <div class="row">
+  <h3>Attachments</h3>
+    <div class="col-25">
+      <label for="attach">Attachments</label>
+    </div>
+    <div class="col-75">
+      <input type="file" id="attach" name="attach" </div>
+  </div>
+  </div>
+  <div class="div4">
+  <input type="reset" name="reset" value="Reset">
+  <input type="submit" name="apply" value="Apply">
+ 
+  </div>
+  <br>
+  </form>
+ </div>
+</div>
+</body>
+</html>
