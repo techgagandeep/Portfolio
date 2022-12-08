@@ -1,0 +1,349 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanathy Gowreesan</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+  <div class="grid-container">
+
+    <section id="home-page">
+          <div data-sticky-container>
+            <div class="title-bar grid-x grid-padding-x" data-sticky data-options="marginTop:0;">
+              <div class="logo large-6 small-12 cell">
+                <a href="#home-page"><img src="/assets/images/logo.png"></a>
+              </div>
+
+              <div class="large-6 small-12 cell">
+                        <!-- Hamburger icon -->
+                <ul class = "menu">
+                  <li><a href="#home-page">Home</a></li>
+                  <li><a href="#about-page">About</a></li>
+                  <li><a href="#project-page">Projects</a></li>
+                  <li><a href="#contact-page">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!--About section-->
+      <section id="about-page">
+        <div class="grid-x grid-padding-x">
+          <div class="large-6 small-12 cell">
+            <p class="first_introPara">Hi there! I’m</p>
+
+            <h2 id="firstName">VANATHY <span id="lastName">GOWREESAN</span></h2>
+
+            <p class="introPara">A <span></span> passionate about creating interactive applications and experience on the 
+              web. I’ve always been someone who has both a creative and a logical side. Being both designer and 
+              developer allows me to make sure no detail is lost in translation.
+            </p>
+
+            <!--  Custom Button -->
+            <form class="button-animation" action="resume.pdf" target="blank">
+              <button class="custom-btn btn-3"><span>VIEW RESUME</span></button>
+            </form>
+          </div>
+  
+          <div class="large-6 small-12 cell">
+            <img src="/assets/images/profile_dark.png">
+          </div>
+        </div>
+      </section>
+
+      <!--project section-->
+      <section id="project-page">
+        <div class="grid-x">
+          <div class="large-12 small-12 cell">
+  
+            <h1><img src="/assets/images/darktheme_header_design.png"/>&nbsp;&nbsp;PROJECTS</h1>
+
+            <article class="project_cards grid-x grid-margin-x"></article>
+
+          
+            <article class="project_cards grid-x grid-margin-x">
+              <div id="border_top">
+                <img src="./assets/images/darktheme_header_border_top.png">
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="/assets/images/mad_movie_mockup.jpg" alt="Neymar">
+                      <h3 class="project-name">MAD Movies Site</h3>
+                    </div>
+                    <div class="back from-left">
+                      <h3>MAD Movies Site</h3>
+                      <p class="des">
+                        MAD Movies is a responsive dynamic web application created for the purpose 
+                        of viewing basic information about movies such as casting, trailers, 
+                        ratings etc.
+                      </p>
+
+
+                      <ul class="button-link">
+                        <li class=""><a href="madmovies" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="/assets/images/digipet.jpg" alt="cheekymonkey">
+                      <h3 class="project-name">Tamagotchi Game</h3>
+                    </div>
+                    <div class="back from-bottom">
+                      <h3>Tamagotchi Game</h3>
+                      <p class="des">
+                        All assets are designed with Adobe Illustrator in SVG format and animated 
+                        using JavaScript library : GreenSock Animation Platform (GSAP) 
+                        which emphasize / tell a story about the character.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="/tamagotchigame/CheekyMonkeyProposal.pdf" target="_blank">VIEW CASE STUDY</a></li>
+                        <li class=""><a href="tamagotchigame" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/ewheel.jpg" alt="Neymar">
+                      <h3 class="project-name">Application Design (eWheel)</h3>
+                    </div>
+                    <div class="back from-right">
+                      <h3>Application Design (eWheel)</h3>
+                      <p class="des">
+                        UI/UX design of an e-wheel app which allow users to sign in, sign up, 
+                        view available bikes and rent within the city.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="/ewheel/eWheelCaseStudy.pdf" target="_blank">VIEW CASE STUDY</a></li>
+                        <li class=""><a href="https://xd.adobe.com/view/f1afb872-8642-428e-ba26-990f4f7f9493-a4fc/" target="_blank">VIEW SITE</a></li>
+                        
+                       <!-- <li class=""><a href="https://xd.adobe.com/view/b8bd9961-0c68-46bc-9d81-19d199012d32-edee/" target="_blank">VIEW SITE</a></li>-->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/easygrocery.jpg" alt="gongrow">
+                      <h3 class="project-name">eCommerce (Groceries Site)</h3>
+                    </div>
+                    <div class="back from-left">
+                      <h3>eCommerce (Groceries Site)</h3>
+                      <p class="des">
+                        Gro N Fresh is a responsive dynamic eCommerce site which allow users to check promotional 
+                        items and order online.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="GroAndFresh" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/hot_chat.jpg" alt="hotchat">
+                      <h3 class="project-name">WooCommerce Site</h3>
+                    </div>
+                    <div class="back from-bottom">
+                      <h3>WooCommerce Site</h3>
+                      <p class="des">
+                        Hot Chat is a responsive dynamic WooCommerce site which allow users to 
+                        order different types of coffee, coffee beans, coffee makers online.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="hot_chat/project_plan.pdf" target="_blank">PROJECT PLAN</a></li>
+                        <li class=""><a href="hotchat" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/IOT.jpg" alt="IOT">
+                      <h3 class="project-name">Scratch to Win Game</h3>
+                    </div>
+                    <div class="back from-right">
+                      <h3>Scratch to Win Game</h3>
+                      <p class="des">
+                        A virtual scratch off game designed to  promote BuyMore Dollars's virtual currency.
+                        Visitors to the site are allowed to play once per 72 hours. 
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="ScratchToWin" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/animated_banner.jpg" alt="animatedbanner">
+                      <h3 class="project-name">Animated Banner Ad</h3>
+                    </div>
+                    <div class="back from-left">
+                      <h3>Animated Banner Ad</h3>
+                      <p class="des">
+                        An interactive SVG and GSAP3 animated banner ad for a vacation destination. 
+                        Chosen destination is animated using micro:bit controller to create interactive.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="AnimatedBanner/animated_banner.pdf" target="_blank">PROJECT PLAN</a></li>
+                        <li class=""><a href="AnimatedBanner" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--
+              <div class="card large-4 small-12 cell">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="assets/images/equipment_signout.jpg" alt="equipmentsignout">
+                      <h3 class="project-name">Equipment Signout</h3>
+                    </div>
+                    <div class="back from-bottom">
+                      <h3>Equipment Signout</h3>
+                      <p class="des">
+                        Single page application developed for users to checkout the available equipments.
+                      </p>
+                      <ul class="button-link">
+                        <li class=""><a href="EquipmentSignout" target="_blank">VIEW SITE</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+
+              <div id="border_bottom">
+                <img src="./assets/images/darktheme_header_border_bottom.png">
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact / form section-->
+
+      <section id="contact-page">
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell small-12">
+            <h1><img src="/assets/images/darktheme_header_design.png"/>&nbsp;&nbsp;GET IN TOUCH WITH ME</h1>
+          </div>
+
+          <div class="contact-form large-6 small-12 cell">
+            <form action="contact.php" method="POST" class="form">
+              <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name*" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your Email*" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject*" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." required></textarea>
+              </div>
+            
+              
+              <div class="button-animation form-button">
+                <button class="custom-btn btn-3 reset-btn" onclick="reset()"><span>RESET</span></button>
+                <button class="custom-btn btn-3 submit-btn submit" value="Submit" onclick="checkValidations()"><span>SEND</span></button>
+              </div>
+            </form>
+          </div>
+
+          <div class="large-6 cell small-12 contact-para-container">
+            <p class="contact-para">If you have any questions, work inquiries, or any feedback don't 
+              hesitate to contact me using this form. </br> I'm currently open to projects, contract work, 
+              and full-time positions. Please allow a couple of business days for me to respond.
+            </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/vanathy-gowreesan/" target="blank"><img src="./assets/images/linkedin.png"/></a>
+              <a href="https://github.com/vanathygowreesan" target="blank"><img src="./assets/images/github.png"/></a>
+              <a href="mailto:contact@vanathygowreesan.ca"><img src="./assets/images/email.png"/></a>
+              <a href="tel:+14165587596"><img src="./assets/images/phone.png"/></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!--Footer container-->
+    <div class="grid-container">
+      <section id="footer">
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 small-12 cell">
+            <p class="copyRights">Copyright © Vanathy Gowreesan 2022 . All rights reserved</p>
+          </div>
+        </div>
+      </section>
+    </div>
+      
+
+
+    <script src="./js/vendor/jquery.js"></script>
+    <script src="./js/vendor/what-input.js"></script>
+    <script src="./js/vendor/foundation.js"></script>
+
+    <script src="./js/sammy.min.js" type="text/javascript"></script>
+    <script src="./js/sammy.template.js" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
+      integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+
+
+    <script src="./js/app.js"></script>
+    
+  </body>
+
+</html>
